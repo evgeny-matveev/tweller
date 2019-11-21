@@ -7,10 +7,10 @@
   --main-width: 960px;
   --main-padding: 124px;
 }
-body {
+body, ::placeholder {
   font-family: 'Fira Code', monospace;
 }
-* {
+*, ::placeholder {
   box-sizing: border-box;
 
   -webkit-font-smoothing: antialiased;
