@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Высказатор — Сообщения</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <nav class="menu">
+    <ul>
+      <li>
+        <div class="menu__icn menu__icn--home"></div>
+        <span>Главная</span>
+      </li>
+      <li>
+        <div class="menu__icn menu__icn--bell"></div>
+        <span>Уведомления</span>
+      </li>
+      <li>
+        <div class="menu__icn menu__icn--chat"></div>
+        <span>Сообщения</span>
+      </li>
+      <li>
+        <div class="menu__icn menu__icn--bookmark"></div>
+        <span>Закладки</span>
+      </li>
+    </ul>
+    <a href="#">
+      <span>Высказаться</span>
+    </a>
+  </nav>
+
+  <main>
+    <section class="chats">
+      <header>
+        <h1>Сообщения</h1>
+        <img src="img/chats.svg" alt="Иконка сортировки">
+      </header>
+      <div class="chats__preview">
+        <img src="img/ava/vasya.png" alt="Аватарка пользователя">
+        <div class="chats__preview__body">
+          <hgroup>
+            <h3>Василий Ночь</h3>
+            <a href="#">@vasya.night</a>
+            <a href="#">11 октября</a>
+          </hgroup>
+          <p>Привет, киберстранник. Настала пора раскрыть карты</p>
+        </div>
+      </div>
+      <div class="chats__preview is-active">
+        <img src="img/ava/dale.png" alt="Аватарка пользователя">
+        <div class="chats__preview__body">
+          <hgroup>
+            <h3>Агент Д</h3>
+            <a href="#">@win-twin</a>
+            <a href="#">3 октября</a>
+          </hgroup>
+          <p>Открою тебе маленький секрет. Каждый день</p>
+        </div>
+      </div>
+      <div class="chats__preview">
+        <img src="img/ava/inna.png" alt="Аватарка пользователя">
+        <div class="chats__preview__body">
+          <hgroup>
+            <h3>Инна Берг</h3>
+            <a href="#">@inna-b</a>
+            <a href="#">2 октября</a>
+          </hgroup>
+          <p>Ты думаешь, я не понимаю. Эта безнадежность и бессмысленность</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="chat">
+      <header>
+        <h2>Агент Д</h2>
+        <a href="#">@win-twin</a>
+      </header>
+      <div class="chat__list__wrapper">
+        <div class="chat__list">
+          <div class="chat__list__item is-users">
+            <p>
+              Слушай, как не умереть со скуки в этой жизни?
+              <time>11 октября, 12:00</time>
+            </p>
+          </div>
+          <div class="chat__list__item is-incoming">
+            <img src="img/ava/dale.png" alt="Аватарка пользователя">
+            <p>
+              Открою тебе маленький секрет. Каждый день, раз в день, делай себе маленький подарок. Не планируй заранее, не жди его, просто пусть он случается. Это может быть новая рубашка или послеобеденный сон в кабинете, или две чашки хорошего, горячего, черного кофе.
+              <time>11 октября, 16:40</time>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="chat__input">
+        <input type="text" placeholder="Введите сообщение">
+        <img src="img/send.svg" alt="Иконка нового сообщения">
+      </div>
+    </section>
+  </main>
+</body>
+</html>
